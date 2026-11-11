@@ -1,4 +1,4 @@
-# ⚡ MabarTrack - Sistem Manajemen Antrean Mabar Streamer Gaming
+# ⚡ MabarTrack - Sistem Antrean Mabar Streamer Gaming
 
 Aplikasi web berbasis **Laravel 12 + Livewire + Tailwind CSS** yang dirancang khusus untuk memecahkan masalah streamer gaming di Indonesia saat membuka jasa mabar (*carry / play-along*) berbayar via **Saweria**.
 
@@ -28,12 +28,4 @@ Aplikasi web berbasis **Laravel 12 + Livewire + Tailwind CSS** yang dirancang kh
    * Menerima notifikasi otomatis saat donasi masuk.
    * Regex Parser mendeteksi kode game (MLBB, Valorant, Free Fire, HOK), In-Game ID, dan menghitung otomatis jumlah game berdasarkan tarif per match.
 
----
 
-
-## 🧪 Menjalankan Automated Test
-
-Aplikasi telah dilengkapi unit & feature test suite lengkap:
-```bash
-php artisan test
-```
