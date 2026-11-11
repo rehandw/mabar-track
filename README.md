@@ -30,52 +30,6 @@ Aplikasi web berbasis **Laravel 12 + Livewire + Tailwind CSS** yang dirancang kh
 
 ---
 
-## 🛠️ Cara Menjalankan Aplikasi
-
-Pastikan terminal berada di direktori proyek:
-```bash
-cd D:\project\mabar-track
-```
-
-### Konfigurasi Database (.env):
-Konfigurasikan database MySQL pada file `.env`:
-```env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=mabar-track
-DB_USERNAME=root
-DB_PASSWORD=
-```
-Lalu jalankan migrasi & data awal:
-```bash
-php artisan migrate --seed
-```
-
-### 1. Jalankan Server Web:
-```bash
-php artisan serve
-```
-Aplikasi akan aktif di `http://127.0.0.1:8000`.
-
-### 2. Jalankan Build Aset (Opsional / Mode Dev):
-Aset frontend sudah ter-*build* secara produksi di folder `public/build`. Jika ingin melakukan perubahan CSS atau JS:
-```bash
-npm run dev
-```
-
----
-
-## 🔗 Rute & Endpoint Utama
-
-| Halaman / Fitur | URL / Endpoint | Keterangan |
-| :--- | :--- | :--- |
-| **Streamer Dashboard** | `http://127.0.0.1:8000/` | Dashboard kontrol utama streamer & moderator |
-| **Layar OBS Overlay** | `http://127.0.0.1:8000/overlay/{token}` | Dimasukkan ke OBS Studio (Browser Source) |
-| **Cek Antrean Publik** | `http://127.0.0.1:8000/queue` | Dibagikan kepada penonton di live chat |
-| **Webhook Saweria** | `http://127.0.0.1:8000/api/saweria/webhook` | Menerima payload donasi Saweria |
-
----
 
 ## 🧪 Menjalankan Automated Test
 
